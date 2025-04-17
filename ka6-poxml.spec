@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	24.12.3
+%define		kdeappsver	25.04.0
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		poxml
 Summary:	poxml
 Name:		ka6-%{kaname}
-Version:	24.12.3
+Version:	25.04.0
 Release:	1
 License:	GPL
 Group:		X11/Applications/Editors
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	4418bd63344a51090a3171da30e6c450
+# Source0-md5:	5592d82f0f8a19c4c9e7492c5425d2dd
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel
 BuildRequires:	Qt6Xml-devel
